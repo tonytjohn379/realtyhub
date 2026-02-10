@@ -1,0 +1,308 @@
+/* ========================================
+   Real Estate Admin Dashboard - Custom Styles
+   ======================================== */
+
+/* Stats Cards */
+.stats-card {
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    transition: all 0.3s;
+    border-left: 4px solid transparent;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+}
+
+.stats-card.primary {
+    border-left-color: #036621;
+}
+
+.stats-card.success {
+    border-left-color: #28a745;
+}
+
+.stats-card.info {
+    border-left-color: #17a2b8;
+}
+
+.stats-card.warning {
+    border-left-color: #ffc107;
+}
+
+.stats-card .stats-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.stats-card.primary .stats-icon {
+    background: rgba(3, 102, 33, 0.1);
+    color: #036621;
+}
+
+.stats-card.success .stats-icon {
+    background: rgba(40, 167, 69, 0.1);
+    color: #28a745;
+}
+
+.stats-card.info .stats-icon {
+    background: rgba(23, 162, 184, 0.1);
+    color: #17a2b8;
+}
+
+.stats-card.warning .stats-icon {
+    background: rgba(255, 193, 7, 0.1);
+    color: #ffc107;
+}
+
+.stats-card h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 10px 0 5px 0;
+    color: #333;
+}
+
+.stats-card p {
+    color: #666;
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* Chart Cards */
+.chart-card {
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    margin-top: 25px;
+}
+
+.chart-card h5 {
+    color: #036621;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+/* Data Tables */
+.data-table {
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    margin-top: 25px;
+}
+
+.data-table table {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.data-table table thead {
+    background: #036621;
+    color: white;
+}
+
+.data-table table thead th {
+    padding: 15px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+}
+
+.data-table table tbody td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.data-table table tbody tr:hover {
+    background: #f8f9fa;
+}
+
+/* Action Buttons */
+.btn-action {
+    padding: 6px 15px;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+    transition: all 0.3s;
+    border: none;
+}
+
+.btn-action.btn-view {
+    background: #17a2b8;
+    color: white;
+}
+
+.btn-action.btn-edit {
+    background: #ffc107;
+    color: #333;
+}
+
+.btn-action.btn-delete {
+    background: #dc3545;
+    color: white;
+}
+
+.btn-action:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    color: white;
+}
+
+/* Page Header */
+.page-header {
+    margin-bottom: 30px;
+}
+
+.page-header h2 {
+    color: #036621;
+    font-weight: 700;
+    margin: 0;
+}
+
+.page-header .breadcrumb {
+    background: transparent;
+    padding: 0;
+    margin: 5px 0 0 0;
+}
+
+/* Form Styles */
+.form-card {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.form-card h4 {
+    color: #036621;
+    font-weight: 600;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.form-control:focus {
+    border-color: #036621;
+    box-shadow: 0 0 0 0.2rem rgba(3, 102, 33, 0.25);
+}
+
+.btn-primary-custom {
+    background: #036621;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-primary-custom:hover {
+    background: #024518;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(3, 102, 33, 0.3);
+}
+
+/* Badge Styles */
+.badge-status {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.badge-active {
+    background: #28a745;
+    color: white;
+}
+
+.badge-inactive {
+    background: #dc3545;
+    color: white;
+}
+
+.badge-pending {
+    background: #ffc107;
+    color: #333;
+}
+
+/* Alert Boxes */
+.alert-custom {
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid;
+}
+
+/* Image Preview */
+.image-preview {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #f0f0f0;
+}
+
+/* Quick Actions */
+.quick-actions {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.quick-action-btn {
+    background: white;
+    border: 2px solid #036621;
+    color: #036621;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.quick-action-btn:hover {
+    background: #036621;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Utility Classes */
+.mt-20 { margin-top: 20px; }
+.mb-20 { margin-bottom: 20px; }
+.text-primary-custom { color: #036621; }
+.bg-primary-custom { background-color: #036621; }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .stats-card {
+        margin-bottom: 15px;
+    }
+    
+    .quick-actions {
+        flex-direction: column;
+    }
+    
+    .data-table {
+        overflow-x: auto;
+    }
+}
